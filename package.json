@@ -1,0 +1,25 @@
+{
+  "name": "bridgetown-lit-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "esbuild": "node esbuild.config.js --minify",
+    "esbuild-dev": "node esbuild.config.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "glob": "^10.3.3",
+    "postcss": "^8.4.29",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^15.1.0",
+    "postcss-load-config": "^4.0.1",
+    "postcss-preset-env": "^9.1.2",
+    "read-cache": "^1.0.0"
+  },
+  "packageManager": "yarn@3.4.1+sha512.a333bf9c2557d71f5ba87dd1446cde24bb9c35301ec29dd2baba577b3f9d1ab61348b66a1324de9088c40a996c5b9203794da8bf14cab9fae6a6eccc00cb8078",
+  "dependencies": {
+    "bridgetown-lit-renderer": "2.1.0-beta2",
+    "esbuild-plugin-lit-css": "^3.0.0",
+    "lit": "^3.1.3"
+  }
+}
